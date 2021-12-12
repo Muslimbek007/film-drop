@@ -133,15 +133,161 @@
           "17Gendre": "Sciens Fiction",
         },
         {
-          "id": 1,
-          "name": "",
-          "youtubeId": "Id here",
-          "title": "title here",
-          "Gendre": "Sciens Fiction",
+          "18id": 1,
+          "18name": "",
+          "18youtubeId": "Id here",
+          "18title": "title here",
+          "18Gendre": "Sciens Fiction",
         },
 
     ]
-    var elp = document.querySelector('.content-info');
+  var elp = document.querySelector('.content-info1');
+
+	let text = " ";
+	for (let i= 0; i < arrayKino.length; i++){
+		text +=  + arrayKino[i].name;
+	}
+	
+	document.querySelector(".content-info1").innerHTML = text;
+
+
+
+
+
+
+  var elp = document.querySelector('.content-info');
+	var poklenght = arrayKino.length;
+	let text = "<ol>";
+	for (let i= 0; i < arrayKino.length; i++){
+		text += '<li>' + arrayKino[i].name;
+	}
+	text += "</ul>";
+	
+	document.querySelector("#demo").innerHTML = text;
+
+
+
+
+  var elp = document.querySelector('.content-info');
+	var poklenght = arrayKino.length;
+	let text = "<ol>";
+	for (let i= 0; i < arrayKino.length; i++){
+		text += '<li>' + arrayKino[i].name;
+	}
+	text += "</ul>";
+	
+	document.querySelector("#demo").innerHTML = text;
+
+
+
+
+  var elp = document.querySelector('.content-info');
+	var poklenght = arrayKino.length;
+	let text = "<ol>";
+	for (let i= 0; i < arrayKino.length; i++){
+		text += '<li>' + arrayKino[i].name;
+	}
+	text += "</ul>";
+	
+	document.querySelector("#demo").innerHTML = text;
+
+
+
+
+  var elp = document.querySelector('.content-info');
+	var poklenght = arrayKino.length;
+	let text = "<ol>";
+	for (let i= 0; i < arrayKino.length; i++){
+		text += '<li>' + arrayKino[i].name;
+	}
+	text += "</ul>";
+	
+	document.querySelector("#demo").innerHTML = text;
+
+
+
+
+  var elp = document.querySelector('.content-info');
+	var poklenght = arrayKino.length;
+	let text = "<ol>";
+	for (let i= 0; i < arrayKino.length; i++){
+		text += '<li>' + arrayKino[i].name;
+	}
+	text += "</ul>";
+	
+	document.querySelector("#demo").innerHTML = text;
+
+
+
+
+  var elp = document.querySelector('.content-info');
+	var poklenght = arrayKino.length;
+	let text = "<ol>";
+	for (let i= 0; i < arrayKino.length; i++){
+		text += '<li>' + arrayKino[i].name;
+	}
+	text += "</ul>";
+	
+	document.querySelector("#demo").innerHTML = text;
+
+
+
+
+  var elp = document.querySelector('.content-info');
+	var poklenght = arrayKino.length;
+	let text = "<ol>";
+	for (let i= 0; i < arrayKino.length; i++){
+		text += '<li>' + arrayKino[i].name;
+	}
+	text += "</ul>";
+	
+	document.querySelector("#demo").innerHTML = text;
+
+
+
+
+
+  var elp = document.querySelector('.content-info');
+	var poklenght = arrayKino.length;
+	let text = "<ol>";
+	for (let i= 0; i < arrayKino.length; i++){
+		text += '<li>' + arrayKino[i].name;
+	}
+	text += "</ul>";
+	
+	document.querySelector("#demo").innerHTML = text;
+
+
+
+
+  var elp = document.querySelector('.content-info');
+	var poklenght = arrayKino.length;
+	let text = "<ol>";
+	for (let i= 0; i < arrayKino.length; i++){
+		text += '<li>' + arrayKino[i].name;
+	}
+	text += "</ul>";
+	
+	document.querySelector("#demo").innerHTML = text;
+
+
+
+
+
+  var elp = document.querySelector('.content-info');
+	var poklenght = arrayKino.length;
+	let text = "<ol>";
+	for (let i= 0; i < arrayKino.length; i++){
+		text += '<li>' + arrayKino[i].name;
+	}
+	text += "</ul>";
+	
+	document.querySelector("#demo").innerHTML = text;
+
+
+
+
+  var elp = document.querySelector('.content-info');
 	var poklenght = arrayKino.length;
 	let text = "<ol>";
 	for (let i= 0; i < arrayKino.length; i++){
