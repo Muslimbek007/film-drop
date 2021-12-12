@@ -18479,6 +18479,33 @@ body {
   background-color: #1f1e1e;
 }
 
+.content-info {
+  text-align: center;
+  font-family: monospace;
+  font-size: 12px;
+  color: wheat;
+}
+
+.text-danger {
+  color: red;
+}
+
+.navbar-brand {
+  letter-spacing: 1px;
+  padding: 3px;
+  padding-left: 14px;
+  padding-right: 14px;
+  background-color: orange;
+  border-radius: 5px;
+}
+
+.Search {
+  width: 800px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border-radius: 3px;
+}
+
 .card {
   position: relative;
   display: -webkit-box;
