@@ -18436,13 +18436,13 @@ input[type="button"].btn-block {
   height: 300px;
   background-color: #181717;
   opacity: 0;
-  -webkit-transition: opacity 0.7s ease;
-  transition: opacity 0.7s ease;
+  -webkit-transition: opacity 0.5s ease;
+  transition: opacity 0.5s ease;
   z-index: 1;
 }
 
 .color:hover {
-  opacity: 0.7;
+  opacity: 0.9;
 }
 
 .color:hover .fa-play-circle {
@@ -18476,7 +18476,7 @@ input[type="button"].btn-block {
 }
 
 body {
-  background-color: #fff;
+  background-color: #1f1e1e;
 }
 
 .card {
