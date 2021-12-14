@@ -153,6 +153,11 @@
 
 
  
+       function button(){
+         var emtyFolder = "  ";
+         arrayKino += emtyFolder;
+         
+       }
 
     // var anchor = document.querySelector(".myHref");
     // var att = document.createAttribute("href");
