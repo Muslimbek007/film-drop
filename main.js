@@ -145,11 +145,11 @@
        
 // first array
        for (let i = 0 ; i < arrayKino.length; i++){
-          var elname = document.querySelector("conteiner-info1")
-          elname = arrayKino[0].name
-       }
-
+          var elname = document.querySelector("conteiner-inf1")
+          elname = arrayKino[0].name;
+       } 
        document.querySelector(".content-info1").innerHTML = elname;
+       
 
 
  
