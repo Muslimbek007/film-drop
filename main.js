@@ -7,133 +7,133 @@
         },
      
         {
-          "id": 1,
+          "id": 2,
           "name": "Sonic the Hedgehog",
           "title": "title here",
           "Gendre": "Fiction",
         },
     
       {
-        "id": 1,
+        "id": 3,
         "name": "Halo",
         "title": "title here",
         "Gendre": "Comedy",
       },
  
       {
-        "id": 1,
+        "id": 4,
         "name": "Message Trailer",
         "title": "title here",
         "Gendre": "Thriller",
       },
  
       {
-        "id": 1,
+        "id": 5,
         "name": "Operation Fortune Ruse de guerre",
         "title": "title here",
         "Gendre": "Documantry",
       },
  
       {
-        "id": 1,
+        "id": 6,
         "name": "The Batman",
         "title": "title here",
         "Gendre": "Fiction",
       },
  
       {
-        "id": 1,
+        "id": 7,
         "name": "Trailer [OV]",
         "title": "title here",
         "Gendre": "Sciens Fiction",
       },
   
       {
-        "id": 1,
+        "id": 8,
         "name": "Teaser Trailer",
         "title": "title here",
         "Gendre": "Thriller",
       },
    
         {
-          "id": 1,
+          "id": 9,
           "name": "Reacher",
           "title": "title here",
           "Gendre": "Horrible",
         },
   
       {
-        "id": 1,
+        "id": 10,
         "name": "Teaser Trailer",
         "title": "title here",
         "Gendre": "Fiction",
       },
     
         {
-          "id": 1,
+          "id": 11,
           "name": "Pushpa Official Trailer",
           "title": "title here",
           "Gendre": "Documantry",
         },
   
       {
-        "id": 1,
+        "id": 12,
         "name": "House of the Dragon",
         "title": "title here",
         "Gendre": "Sciens Fiction",
       },
   
       {
-        "id": 1,
+        "id": 13,
         "name": "Jurassic World: Dominion",
         "title": "title here",
         "Gendre": "Fiction",
       },
    
       {
-        "id": 1,
+        "id": 14,
         "name": "Official Trailer",
         "title": "title here",
         "Gendre": "Horrible",
       },
      
         {
-          "id": 1,
+          "id": 15,
           "name": "American Underdog",
           "title": "title here",
           "Gendre": "Thriller",
         },
      
         {
-          "id": 1,
+          "id": 16,
           "name": "Official Trailer",
           "title": "title here",
           "Gendre": "Comedy",
         },
      
         {
-          "id": 1,
+          "id": 17,
           "name": "Garry Poter",
           "title": "title here",
           "Gendre": "Horrible",
         },
     
         {
-          "id": 1,
+          "id": 18,
           "name": "",
           "title": "title here",
           "Gendre": "Thriller",
         },
    
       {
-        "id": 1,
+        "id": 19,
         "name": "40 Qaroqchi",
         "title": "title here",
         "Gendre": "Sciens Fiction",
       },
      
         {
-          "1id": 1,
+          "1id": 20,
           "name": "",
           "1title": "title here",
           "Gendre": "Fiction",
@@ -144,11 +144,11 @@
 
        
 // first array
-       for (let i= 0; i < arrayKino.length; i++){
-          var elname =document.querySelector("conteiner-info1")
-          elname += arrayKino[0].name
+       for (let i = 0 ; i < arrayKino.length; i++){
+          var elname = document.querySelector("conteiner-info1")
+          elname = arrayKino[0].name
        }
-       
+
        document.querySelector(".content-info1").innerHTML = elname;
 
 
