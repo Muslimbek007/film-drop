@@ -140,22 +140,22 @@
         },
        ]
      
-// first array
-       var elp = document.querySelector('.content-info1');
-       var poklenght = arrayKino.length;
-       let text = " ";
-       for (let i= 0; i < arrayKino.length; i++){
-         
-       }
-       text += " ";
+
+
        
-       document.querySelector(".content-info1").innerHTML = text;
+// first array
+       for (let i= 0; i < arrayKino.length; i++){
+          var elname =document.querySelector("conteiner-info1")
+          elname += arrayKino[0].name
+       }
+       
+       document.querySelector(".content-info1").innerHTML = elname;
 
 
  
 
-    var anchor = document.querySelector(".myHref");
-    var att = document.createAttribute("href");
-    att.value = "https://www.youtube.com/watch?v=RWXaOIEtrCk";
-    anchor.setAttributeNode(att);
+    // var anchor = document.querySelector(".myHref");
+    // var att = document.createAttribute("href");
+    // att.value = "https://www.youtube.com/watch?v=RWXaOIEtrCk";
+    // anchor.setAttributeNode(att);
 
